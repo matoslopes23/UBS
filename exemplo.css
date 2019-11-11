@@ -1,0 +1,80 @@
+.Principal{
+    width: 800px;
+    height: 570px;
+    color: #fff;
+    background-color: rgba(0,0,5,0,8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+
+}
+#Principal{
+	width: 250px;
+	margin : 0 auto;
+	position: relative;
+	top: 250px;
+	border:1px solid #f1f1f1;
+}
+.sb{
+	border: none;
+	width: 300px;
+	height: 40px;
+    margin-top: 5px;
+	cursor: pointer;
+    font:400 18px Oswald;
+    background-color: mediumblue;
+    color: #999;
+    top: 50%;
+    left: 50%;;
+    
+    
+}
+.sb:hover{
+    background:rgb(6, 122, 199);
+    }
+.sd{
+    border: none;
+	width: 300px;
+	height: 40px;
+    margin-top: 5px;
+	cursor: pointer;
+    font:400 18px Oswald;
+    background-color: red;
+    color: #999;
+    top: 50%;
+    left: 50%;
+	
+}
+.sd:hover{
+    background:rgb(182, 7, 31);
+}
+.bradius{
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.campo{
+    width: 400px;
+	height: 30px;
+}
+.txt{
+    width: 160px;
+	height: 30px;
+}
+h1{
+    z-index: 3;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 24px;
+    font-family: "Segoe UI"a;
+    font-weight: bold;
+
+}
+label{
+    font-weight: bold;
+} 
